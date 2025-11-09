@@ -1,0 +1,12 @@
+cafe=1
+park=1
+dom_Elcovoi=1
+MakSim=1
+end_1=1
+branch_male_begin=1
+branch_svidanie=1
+branch_cafe=1
+branch_park=1
+branch_end_1=0
+branch_maksim=0
+branch_dom_Elcovoi=1
