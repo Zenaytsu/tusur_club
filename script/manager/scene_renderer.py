@@ -45,9 +45,9 @@ class SceneRenderer:
     def draw_return_hint(self):
         hint_font_size = max(16, int(self.HEIGHT * 0.02))
         try:
-            hint_font = pygame.font.Font("Nunito-Bold.ttf", hint_font_size)
+            hint_font = pygame.font.Font("Verdana", hint_font_size)
         except:
-            hint_font = pygame.font.SysFont("arial", hint_font_size)
+            hint_font = pygame.font.SysFont("Verdana", hint_font_size)
 
         hint_text = hint_font.render("Нажмите для возврата в главное меню", True, (200, 200, 200))
         hint_rect = hint_text.get_rect(center=(self.WIDTH // 2, self.HEIGHT - 30))

@@ -1,4 +1,4 @@
-cafe=1
+cafe=0
 park=1
 dom_Elcovoi=1
 MakSim=1

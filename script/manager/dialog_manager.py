@@ -10,11 +10,11 @@ class DialogManager:
         self.name_font_size = max(24, int(self.HEIGHT * 0.04))
         
         try:
-            self.dialogue_font = pygame.font.Font("Nunito-Bold.ttf", self.dialogue_font_size)
-            self.name_font = pygame.font.Font("Nunito-Bold.ttf", self.name_font_size)
+            self.dialogue_font = pygame.font.Font("Verdana", self.dialogue_font_size)
+            self.name_font = pygame.font.Font("Verdana", self.name_font_size)
         except:
-            self.dialogue_font = pygame.font.SysFont("arial", self.dialogue_font_size, bold=False)
-            self.name_font = pygame.font.SysFont("arial", self.name_font_size, bold=True)
+            self.dialogue_font = pygame.font.SysFont("Verdana", self.dialogue_font_size, bold=False)
+            self.name_font = pygame.font.SysFont("Verdana", self.name_font_size, bold=True)
 
     def draw_dialog_window(self, current_dialogue):
         border_color = current_dialogue["speaker"]["color"]
@@ -101,7 +101,7 @@ class DialogManager:
         self.skip_rect = pygame.Rect(skip_x, skip_y, skip_width, skip_height)
 
         pygame.draw.rect(self.screen, (255, 255, 255), self.skip_rect, border_radius=10)
-        font = pygame.font.SysFont("arial", max(20, int(self.HEIGHT * 0.025)), bold=True)
+        font = pygame.font.SysFont("Verdana", max(20, int(self.HEIGHT * 0.025)), bold=True)
         text = font.render("СКИП", True, (0, 0, 0))
         text_rect = text.get_rect(center=self.skip_rect.center)
         self.screen.blit(text, text_rect)

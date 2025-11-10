@@ -17,9 +17,10 @@ class MenuScene(BaseScene):
 
         self.button_font_size = max(36, int(self.HEIGHT * 0.04))
         try:
-            self.button_font = pygame.font.Font("Nunito-Bold.ttf", self.button_font_size)
+            self.button_font = pygame.font.SysFont("Verdana", self.button_font_size)
         except:
-            self.button_font = pygame.font.SysFont("arial", self.button_font_size)
+            self.button_font = pygame.font.SysFont("Verdana", self.button_font_size)
+            
         
         button_width = int(self.WIDTH * 0.3)
         button_height = int(self.HEIGHT * 0.1)

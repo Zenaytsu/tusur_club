@@ -8,9 +8,9 @@ class ChoiceManager:
         
         self.dialogue_font_size = max(24, int(self.HEIGHT * 0.035))
         try:
-            self.dialogue_font = pygame.font.Font("Nunito-Bold.ttf", self.dialogue_font_size)
+            self.dialogue_font = pygame.font.Font("Verdana", self.dialogue_font_size)
         except:
-            self.dialogue_font = pygame.font.SysFont("arial", self.dialogue_font_size, bold=True)
+            self.dialogue_font = pygame.font.SysFont("Verdana", self.dialogue_font_size, bold=True)
 
     def draw_choices(self, choices):
         choice_width = int(self.WIDTH * 0.4)

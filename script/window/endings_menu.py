@@ -9,7 +9,7 @@ class EndingsMenu:
         self.HEIGHT = height
         self.progress = ProgressManager()
 
-        self.font = pygame.font.SysFont("arial", max(32, int(self.HEIGHT * 0.04)), bold=True)
+        self.font = pygame.font.SysFont("Verdana", max(32, int(self.HEIGHT * 0.04)), bold=True)
         self.back_button = pygame.Rect(width//2 - 150, height - 100, 300, 60)
 
     def handle_event(self, event):
