@@ -1,7 +1,7 @@
 from script.scenario.characters import CHARACTERS
 
-bezumno = {
-    "bezumno_begin": {
+para = {
+    "para_begin": {
         
         "dialogue": [
             {
@@ -72,19 +72,10 @@ bezumno = {
     "uvazhenie": {
         "dialogue": [
             {
-                "speaker": CHARACTERS["tainst"],
-                "text": "Хороший выбор)",
-            },
-            {
                 "speaker": CHARACTERS["system"],
-                "text": "Я обернулся и увидел там ее",
-            },
-            {
-                "speaker": CHARACTERS["system"],
-                "text": "Я обернулся и увидел там ее",
+                "text": "Ебать ты извращенец",
                 "effect":"изврат.mp3",
-                "sound":"no_sound",
-                "icon": "Зариковская_и_шавухи.png",
+                "sound":"no_sound"
             }
         ]
     },

@@ -13,7 +13,7 @@ CHARACTERS = {
     "gricenko": {"name": "Юрий Борисович", "color": hex_to_rgb("#696969")},
 
     "zarikovskay":{"name": "Наталья Вячеславовна", "color": hex_to_rgb("#F4A460")},
-    "habalka":{"name": "Хабалка", "color": hex_to_rgb("#F4A460")},
+    "tainst":{"name": "Таинственная незнакомка", "color": hex_to_rgb("#F4A460")},
 
     "tusha_ebanay":{"name": "Туша ебаная", "color": hex_to_rgb("#0000FF")},
     "female": {"name": "Внутренний голос", "color": hex_to_rgb("#DDA0DD")},
